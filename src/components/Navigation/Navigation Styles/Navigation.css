@@ -1,0 +1,135 @@
+/* Navigation Layout Styling */
+.navigation {
+    display: grid;
+    grid-template-rows: 0.4fr 0.7fr 4fr;
+    gap: 0.8rem;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* background-color: rgb(197, 227, 227); */
+}
+
+/* ----------------------------------------------------- */
+
+/* Navbrand Styling */
+.navbrand {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbrand .nav-logo{
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------- */
+
+/* CurrentUser Styling */
+.currentUser{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.currentUser .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.currentUser .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.currentUser .info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: "Rubik";
+    letter-spacing: 1.1px;
+}
+
+.currentUser .info h4 {
+    color: rgb(52, 52, 52);
+    font-weight: 500;
+}
+
+.currentUser .info p{
+    color: rgb(96, 95, 95);;
+}
+
+/* ------------------------------------------------------- */
+
+/* Menu Component Styling */
+.menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.menu-container .menu{
+    width: 100%;
+    padding: 1rem 1rem;
+    /* background-color: coral; */
+}
+
+.menu-container .menu h6 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Rubik";
+    letter-spacing: 2px;
+    color: rgb(96, 95, 95);
+}
+
+.menu-container .menu .menu-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.menu-container .menu .menu-links .link {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Rubik";
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: slategray;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 10px;
+
+}
+.menu-container .menu .menu-links .link:hover{
+    background-color: rgb(239, 249, 249);
+    border-right: 4px solid #007B55;
+    color: #007B55;
+}
+
+.menu-container .menu .menu-links .link .icon{
+    font-size: 1.3rem;
+}

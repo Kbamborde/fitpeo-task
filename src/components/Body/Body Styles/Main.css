@@ -306,3 +306,80 @@ main {
     letter-spacing: 1.1px;
     font-size: 1.1rem;
 }
+
+
+
+.stats{
+    /* background-color: red; */
+    width: 100%;
+    height: 20vh;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.stats .stat{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.stats .stat .left-info{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1rem;
+    font-family: "Rubik";
+}
+
+.stats .stat .left-info h2{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.stats .stat .left-info .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.stats .stat .left-info h1{
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+
+.stats .stat .right-graph{
+    width: 50%;
+    height: 100%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.stats .stat .right-graph svg{
+    width: 100%;
+    height: 100%;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}

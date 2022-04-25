@@ -1,10 +1,12 @@
 import React from "react";
+import "./Body Styles/Main.css";
+import Header from "./Header/Header";
 
 const Main = () => {
   return (
-    <div>
-      <h2>Main Content Goes Here...</h2>
-    </div>
+    <main>
+      <Header />
+    </main>
   );
 };
 
